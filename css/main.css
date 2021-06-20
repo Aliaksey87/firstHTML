@@ -165,56 +165,7 @@ a {
   position: relative;
   z-index: 2;
 }
-.social_media {
-  background: black;
-  height: 110px;
-}
-.stylesocialmedia {
-  width: 125px;
-  height: 27px;
-  left: 111px;
-  top: 14px;
-  margin: 14px 111px;
 
-  font-family: Open Sans, serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
-  display: flex;
-  align-items: center;
-
-  color: #333333;
-}
-.stylesocialmedia2 {
-
-  width: 365px;
-  height: 38px;
-  left: 111px;
-  top: 55px;
-
-  font-family: Open Sans, serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  /*display: flex;*/
-  /*align-items: center;*/
-
-  color: #86878B;
-}
-.flex_social_media {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-.flex_social_icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-}
 .flex14 {
   display: flex;
   flex-direction: row;
@@ -365,7 +316,6 @@ a {
   border: 1px solid #BDBDBD;
 }
 
-
 .styleget {
   width: 370px;
   height: 53px;
@@ -376,22 +326,65 @@ a {
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
-  /*display: flex;*/
   align-items: center;
-  /*text-align: center;*/
   display: block;
 
-
   color: #ffffff;
-  /*text-decoration-line: blue;*/
-  /*border: 1px solid #000000;*/
-  border: 1px solid red;
   padding: 10px;
 
   background: #EC7979;
-  border-radius: 0px 0px 8px 8px;
+  border-radius: 0 0 8px 8px;
+}
+.social_media {
+  background: black;
+  height: 110px;
+}
+.stylesocialmedia {
+  width: 125px;
+  margin: 14px 0 14px 111px;
+
+  font-family: Open Sans, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+
+  color: #333333;
+}
+.stylesocialmedia2 {
+  width: 365px;
+  margin: 0 0 17px 114px;
+
+  font-family: Open Sans, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+
+  color: #86878B;
+}
+.stylesocialmedia3 {
+  margin: 0 90px 0 0;
 }
 
+.flex_main_social_media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.flex_social_media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.flex_social_icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
 .container2 {
   display: flex;
   flex-direction: row;
