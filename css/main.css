@@ -25,6 +25,28 @@ a {
   width: 1180px;
   margin: 0 auto;
 }
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: Space-between;
+  text-align: center
+}
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  /*margin: 100px;*/
+  /*width: 140px;*/
+  /*height: 140px;*/
+  color: #373739FF;
+}
+.container4 {
+  font-family: Open Sans, serif;
+  width: 1180px;
+  height: 600px;
+  margin: 0 auto;
+}
 .header {
   background: black;
   height: 70px;
@@ -254,11 +276,33 @@ a {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 17px;
     text-align: center;
     color: #FFFFFF;
 }
 .download1:hover{
+    color: red;
+    border: 1px solid red;
+}
+.download2 {
+    width: max-content;
+    height: 42px;
+    margin: 20px 0 101px 110px;
+    padding: 11px 26px;
+    display: block;
+    border: 1px solid black;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: none;
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    color: black;
+}
+.download2:hover{
     color: red;
     border: 1px solid red;
 }
@@ -385,37 +429,48 @@ a {
   justify-content: center;
   text-align: center;
 }
-.container2 {
+.flextabstext {
   display: flex;
   flex-direction: row;
-  justify-content: Space-between;
-  text-align: center
-}
-.container3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
-  /*margin: 100px;*/
-  /*width: 140px;*/
-  /*height: 140px;*/
-  color: #373739FF;
-}
-.container4 {
-  font-family: Open Sans, serif;
-  width: 1180px;
-  height: 600px;
-  margin: 0 auto;
-}
-.tab1 {
+
+
 
 }
-.tab2 {
-
+.flextabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
 }
-.tab3 {
-
+.tab1text {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 42px 35px;
 }
+.tab1background {
+  background: #EC7979;
+  border-radius: 4px;
+  width: 112px;
+  height: 110px;
+  margin: 10px 10px 10px 10px;         /*положение элемента*/
+}
+.tab2text {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 42px 35px;
+  background: #333333;
+}
+.tab2background {
+  background: #333333;
+  border-radius: 4px;
+  width: 112px;
+  height: 110px;
+  margin: 10px 10px 10px 10px;         /*положение элемента*/
+}
+
+
 .flex3{
   width: 298px;
   background: #E2E2E2;
